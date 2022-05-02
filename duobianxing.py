@@ -4,7 +4,7 @@ from setuptools import Command
 windows = tk.Tk()
 windows.geometry('800x600')
 windows.resizable(0,0)#大小不可改变
-windows.title("秦梓茗的多边形面积计算器")
+windows.title("面积计算器")
 ls1=tk.StringVar
 ls2=tk.StringVar
 Entry1=tk.Entry(windows,textvariable=ls1)
